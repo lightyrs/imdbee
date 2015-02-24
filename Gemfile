@@ -14,8 +14,15 @@ group :doc do
 end
 
 group :development, :test do
-  gem 'byebug'
-  gem 'web-console', '~> 2.0'
+  gem 'awesome_print'
+  gem 'pry'
+  gem 'pry-rails'
+  gem 'pry-remote'
+  gem 'pry-stack_explorer'
+  gem 'pry-byebug'
+  gem 'colored'
+  gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'spring'
 end
 
